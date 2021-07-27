@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>SITE STATIC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg .navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">THE-FIVE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Présentation</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Plus
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Réalisations</a></li>
+                            <li><a class="dropdown-item" href="#">Historique</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Contactez-nous</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Localiser</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="rechercher" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">rechercher</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    </header>
+    <br><br>
+    <div id="banniere">
+        <img src="images/city.jpg" alt="ville">
+        <h1>LES TECHNOLOGIES BACKEND</h1>
+    </div><br><br><br>
+    <div id="corps">
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus recusandae labore iusto at dolorum? Dignissimos illum, saepe id in repellendus voluptatibus earum rerum quisquam, qui reprehenderit odio? Magni, sed nulla.</span><span>Nobis molestiae sunt omnis beatae dolorem ducimus, quaerat facere ea amet fugit. Iusto placeat enim, ad fuga delectus sapiente laborum repudiandae, officia consectetur nam corporis ipsum et commodi nisi tenetur?</span><span>Quisquam tempora laudantium, nostrum nesciunt asperiores illo obcaecati! Nemo adipisci impedit veritatis cumque, dolor dolore ducimus sed est aliquid dignissimos libero vel officia quidem quam placeat consectetur quod tempore expedita.</p>
+        
+        
+        <form>
+           <fieldset>
+                <p class="formp">
+                    <label for="nom">Nom</label><br>
+                    <input type="text" id="nom" name="nom" value="" placeholder="Entrer votre nom">
+                </p><br><br>
+                <p class="formp">
+                    <label for="prenom">Prenom(s)</label><br>
+                    <input type="text" id="prenom" name="prenom" value="" placeholder="Entrer votre prenom">
+                </p><br><br>
+                <p class="formp">
+                    <label for="email">E-mail</label><br>
+                    <input type="email" id="email" name="email" value="" placeholder="Entrer votre email">
+                </p><br><br>
+                <p class="formpb">
+                    <input type="button" id="bouton" value="Valider" onclick="controle()">
+                </p>
+           </fieldset>
+           
+        </form>
+        
+        </div>
+    </div>
+    <footer>
+        <p>THE-FIVE CODING TOUS DROITS RESERVES</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
